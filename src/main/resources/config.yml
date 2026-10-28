@@ -1,0 +1,9 @@
+# How far above your feet a hologram is placed on /holo create and /holo move.
+# Tweak per hologram afterwards with /holo offset <id> <up/down>.
+y-offset: 2.2
+
+# Vanilla-style dark box behind the text (like a nametag). false = clean floating text.
+background: false
+
+# Drop shadow behind the letters (helps readability).
+text-shadow: true

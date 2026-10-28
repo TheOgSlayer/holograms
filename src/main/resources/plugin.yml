@@ -1,0 +1,17 @@
+name: HologramPlugin
+version: ${project.version}
+main: com.example.holo.HologramPlugin
+api-version: "1.21"
+description: Simple holograms (floating text that always faces the player), e.g. NPC names
+
+commands:
+  hologram:
+    description: Manage holograms
+    aliases: [holo]
+    usage: /hologram <create|delete|list|settext|addline|move|offset|scale|tp>
+    permission: hologram.admin
+
+permissions:
+  hologram.admin:
+    description: Create and edit holograms
+    default: op
